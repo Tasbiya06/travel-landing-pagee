@@ -1,0 +1,97 @@
+/* Reset + font */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.navbar {
+  background-color: #0e2a47;
+  padding: 15px 30px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  color: #00d8ff;
+}
+
+.section {
+  min-height: 100vh;
+  padding: 100px 20px 60px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+.section:nth-child(even) {
+  background-color: #f0f8ff;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  color: #0e2a47;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  color: #444;
+  margin-bottom: 30px;
+}
+
+.hero-btn {
+  padding: 12px 25px;
+  background-color: #0e2a47;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+.hero-btn:hover {
+  background-color: #0077b6;
+}
+
+h2 {
+  font-size: 32px;
+  color: #0e2a47;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+  color: #555;
+}
